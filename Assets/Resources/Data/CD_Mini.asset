@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68db5100267523941b0c235ba6ef1109, type: 3}
+  m_Name: CD_Mini
+  m_EditorClassIdentifier: 
+  Levels:
+  - MiniGameBalloonsS:
+    - BonusValue: 10
+      BalloonsTextValue: 2
+    - BonusValue: 20
+      BalloonsTextValue: 10
+    - BonusValue: 30
+      BalloonsTextValue: 20
+    - BonusValue: 40
+      BalloonsTextValue: 30
+    - BonusValue: 50
+      BalloonsTextValue: 40
+    - BonusValue: 60
+      BalloonsTextValue: 50
+    - BonusValue: 0
+      BalloonsTextValue: 60
+    - BonusValue: 0
+      BalloonsTextValue: 70
+    - BonusValue: 0
+      BalloonsTextValue: 80
+    - BonusValue: 0
+      BalloonsTextValue: 90
+    - BonusValue: 0
+      BalloonsTextValue: 100
+    - BonusValue: 0
+      BalloonsTextValue: 125
+    - BonusValue: 0
+      BalloonsTextValue: 150
+    - BonusValue: 0
+      BalloonsTextValue: 170
+    - BonusValue: 0
+      BalloonsTextValue: 200
+    - BonusValue: 0
+      BalloonsTextValue: 220
+    - BonusValue: 0
+      BalloonsTextValue: 250
+    - BonusValue: 0
+      BalloonsTextValue: 300
+    - BonusValue: 0
+      BalloonsTextValue: 350
+    - BonusValue: 0
+      BalloonsTextValue: 400
+    - BonusValue: 0
+      BalloonsTextValue: 450
+    - BonusValue: 0
+      BalloonsTextValue: 500
+    - BonusValue: 0
+      BalloonsTextValue: 550
+    - BonusValue: 0
+      BalloonsTextValue: 600
+    - BonusValue: 0
+      BalloonsTextValue: 650
+    - BonusValue: 0
+      BalloonsTextValue: 700
+    - BonusValue: 0
+      BalloonsTextValue: 750
+    - BonusValue: 0
+      BalloonsTextValue: 800
+    - BonusValue: 0
+      BalloonsTextValue: 850
+    - BonusValue: 0
+      BalloonsTextValue: 900
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+    - BonusValue: 0
+      BalloonsTextValue: 950
+  - MiniGameBalloonsS:
+    - BonusValue: 10
+      BalloonsTextValue: 2
+    - BonusValue: 20
+      BalloonsTextValue: 10
+    - BonusValue: 30
+      BalloonsTextValue: 20
+    - BonusValue: 40
+      BalloonsTextValue: 30
+    - BonusValue: 50
+      BalloonsTextValue: 40
+    - BonusValue: 60
+      BalloonsTextValue: 50
+    - BonusValue: 0
+      BalloonsTextValue: 60
+    - BonusValue: 0
+      BalloonsTextValue: 70
+    - BonusValue: 0
+      BalloonsTextValue: 80
+    - BonusValue: 0
+      BalloonsTextValue: 90
+    - BonusValue: 0
+      BalloonsTextValue: 100
+    - BonusValue: 0
+      BalloonsTextValue: 125
+    - BonusValue: 0
+      BalloonsTextValue: 150
+    - BonusValue: 0
+      BalloonsTextValue: 170
+    - BonusValue: 0
+      BalloonsTextValue: 200
+    - BonusValue: 0
+      BalloonsTextValue: 220
+    - BonusValue: 0
+      BalloonsTextValue: 250
+    - BonusValue: 0
+      BalloonsTextValue: 300
+    - BonusValue: 0
+      BalloonsTextValue: 350
+    - BonusValue: 0
+      BalloonsTextValue: 400
+    - BonusValue: 0
+      BalloonsTextValue: 500
+    - BonusValue: 0
+      BalloonsTextValue: 600
+    - BonusValue: 0
+      BalloonsTextValue: 700
+    - BonusValue: 0
+      BalloonsTextValue: 800
+    - BonusValue: 0
+      BalloonsTextValue: 900
+    - BonusValue: 0
+      BalloonsTextValue: 1000
+    - BonusValue: 0
+      BalloonsTextValue: 1200
+    - BonusValue: 0
+      BalloonsTextValue: 1300
+    - BonusValue: 0
+      BalloonsTextValue: 1400
+    - BonusValue: 0
+      BalloonsTextValue: 1500
+    - BonusValue: 0
+      BalloonsTextValue: 1600
+    - BonusValue: 0
+      BalloonsTextValue: 1700
+    - BonusValue: 0
+      BalloonsTextValue: 1800
+    - BonusValue: 0
+      BalloonsTextValue: 1900
+    - BonusValue: 0
+      BalloonsTextValue: 2000
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
+    - BonusValue: 0
+      BalloonsTextValue: 2100
