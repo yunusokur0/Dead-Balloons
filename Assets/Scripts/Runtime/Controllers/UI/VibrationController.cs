@@ -43,10 +43,7 @@ public class VibrationController : MonoBehaviour
     }
 
     public int OnVibrationPref() => isVibration;
-    //{
-    //    return isVibration;
-    //}
-
+  
     private void OnEnable() => Subscription();
     private void Subscription()
     {
