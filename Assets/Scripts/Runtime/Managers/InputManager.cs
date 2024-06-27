@@ -81,53 +81,6 @@ public class InputManager : MonoBehaviour
         }
     }
 
-    //private void Update()
-    //{
-    //    if (!isReadyForTouch) return;
-
-    //    if (Input.GetMouseButtonDown(0) && !IsPointerOverUIElement())
-    //    {
-    //        _isTouching = true;
-    //        InputSignals.Instance.onInputTaken?.Invoke();
-    //        if (!isFirstTimeTouchTaken)
-    //        {
-    //            isFirstTimeTouchTaken = true;
-    //        }
-    //        _mousePosition = Input.mousePosition;
-    //    }
-
-    //    if (Input.GetMouseButton(0) && !IsPointerOverUIElement())
-    //    {
-    //        if (_isTouching)
-    //        {
-    //            if (_mousePosition != null)  
-    //            {
-    //                Vector2 mouseDeltaPos = (Vector2)Input.mousePosition - _mousePosition.Value;
-    //                float scaledInputSpeed = _data.HorizontalInputSpeed / 10f;
-
-    //                _moveVector.x = Mathf.Abs(mouseDeltaPos.x) > _data.HorizontalInputSpeed
-    //                    ? Mathf.Sign(mouseDeltaPos.x) * scaledInputSpeed * Mathf.Abs(mouseDeltaPos.x)
-    //                    : Mathf.SmoothDamp(_moveVector.x, 0f, ref _currentVelocity, _data.ClampSpeed);
-
-    //                _mousePosition = Input.mousePosition;
-
-    //                InputSignals.Instance.onInputDragged?.Invoke(new HorizontalInputParams
-    //                {
-    //                    HorizontalValue = _moveVector.x,
-    //                    ClampValues = _data.ClampSides  
-    //                });
-
-    //            }
-    //        }
-    //    }
-
-    //    if (Input.GetMouseButtonUp(0) && !IsPointerOverUIElement())
-    //    {
-    //        _isTouching = false;
-    //        InputSignals.Instance.onInputReleased?.Invoke();
-    //    }
-    //}
-
     private bool IsPointerOverUIElement()
     {
         var eventData = new PointerEventData(EventSystem.current);
